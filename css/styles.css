@@ -1,0 +1,734 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4a7d5c;
+  font-family: Poppins, sans-serif;
+}
+
+h1 {
+  color: #f2fcf5;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+h2 {
+  color: #f2fcf5;
+  font-size: 30px;
+}
+
+h3,
+p {
+  color: #f2fcf5;
+  font-size: 16px;
+}
+
+/* NAVBAR SECTION */
+
+header {
+  background-color: #fff;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a,
+.contact-parent a {
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding {
+  font-size: 2rem;
+}
+
+.nav-branding img {
+  width: 500px;
+  height: 100px;
+}
+
+.nav-link {
+  transition: 0.6s ease; /* For delaying the effect*/
+  color: green;
+}
+
+.nav-link:hover {
+  color: #deb887;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #4a7d5c;
+}
+
+/* VIDEO SECTION */
+
+.vid-container video {
+  width: 100%;
+}
+
+/* CARD SECTION */
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 6% 0;
+  padding-top: 0;
+}
+
+#cards-main h1 {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.card-child {
+  height: auto;
+  width: 30%;
+  margin: 12px;
+  border-radius: 12px;
+  transition: 0.6s ease;
+}
+
+.card-child img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  opacity: 0.8;
+}
+
+.card-child p {
+  font-size: 20px;
+  padding: 12px;
+  font-weight: 700;
+  color: #dddddd;
+}
+
+/* WELCOME SECTION */
+
+#welcome {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 6% 10%;
+  line-height: 1.5;
+}
+
+#welcome h1 {
+  padding: 0 0 5% 0px;
+}
+
+.welcome-rmp {
+  padding-top: 5%;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  position: relative;
+  background: #dddddd;
+  width: 100%;
+  padding: 4% 0;
+}
+
+.slideshow-container h1 {
+  text-align: center;
+  color: black;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+q {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.author {
+  color: black;
+}
+
+/* CARDS BOTTOM */
+
+#cards-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 6%;
+  background-color: #dddddd;
+  line-height: 1.5;
+}
+
+#cards-bottom h1,
+#cards-bottom p {
+  color: black;
+}
+
+.card-bottom-child {
+  width: 28%;
+  margin: 12px;
+  padding: 1%;
+}
+
+.card-bottom-child h1 {
+  padding-bottom: 5%;
+  font-size: 35px;
+}
+
+/* MAP SECTION */
+
+.mapouter {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 2%;
+}
+
+.mapouter h1 {
+  padding-bottom: 1%;
+}
+
+.gmap-container {
+  overflow: hidden;
+  background: none;
+  width: 100%;
+  height: auto;
+}
+
+.gmap_iframe {
+  width: 100%;
+  height: 400px;
+  border: 2px solid white;
+  opacity: 0.8;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: #4a7d5c;
+  text-align: center;
+  padding: 20px 10px 5px 10px;
+  padding-bottom: 0;
+}
+
+.footer-elements {
+  padding: 25px;
+}
+
+.footer-elements a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  transition: 0.3s ease-out;
+}
+
+.footer-elements a:hover {
+  color: aliceblue;
+  font-size: 32px;
+  transition: 0.3s ease; /* For delaying the effect*/
+}
+
+/* CONTACT PAGE */
+/* #contactpg-main{
+  background-color: #dddddd;
+  height: 400px;
+  width: 100%;
+}
+
+#contactpg-main h1{
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+} */
+
+/* CONTACT SECTION */
+
+#contact {
+  text-align: center;
+  padding: 4% 20px;
+  background-color: #dddddd;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#contact h1 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-main-1 h2 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-parent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.contact-main-1,
+.contact-main-2 {
+  line-height: 1.5;
+}
+
+.contact-main-1 {
+  flex: 50%;
+}
+
+.contact-page-main-sec-p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-main-2 {
+  flex: 50%;
+}
+
+.contact-parent input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  outline: none;
+  padding-bottom: 5px;
+  background-color: #dddddd;
+  /* color: #e9f8f9; */
+  padding: 10px 0px;
+}
+
+/* .contact-parent textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #dddddd;
+  /* color: #e9f8f9; 
+  resize: none;
+} */
+
+.contact-parent label {
+  display: block;
+  margin-bottom: 6px;
+  text-align: left;
+  /* color: #c0eef2; */
+  padding: 10px 0px;
+}
+
+.contact-main-2 button {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100px;
+  color: #dddddd;
+  border: none;
+  outline: none;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact-elements {
+  padding: 25px;
+}
+
+.contact-elements a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  transition: 0.3s ease-out;
+}
+
+.contact-elements a:hover {
+  font-size: 32px;
+  transition: 0.3s ease; /* For delaying the effect*/
+}
+
+/* ABOUT PAGE */
+
+#about-pg-above-main{
+  min-height: 150px;
+  background-image: url("https://nimradefense.com/images/Hypersonic%20Wind%20Tunnel.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-pg-above-main h1{
+  text-align: center;
+  display: block;
+  margin: auto;
+  text-shadow: #4a7d5c;
+  padding: 40px;
+}
+
+#about-pg-about-company-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 5%;
+  line-height: 1.6;
+}
+
+#about-pg-about-company-parent h1,#about-pg-about-company-parent p{
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.about-pg-about-company-child{
+  width: 85%;
+}
+
+#about-pg-about-company-parent img{
+  max-width: 500px;
+  float: left;
+  margin: 20px;
+}
+
+#about-pg-mission{
+  display: block;
+  margin: auto;
+  padding: 5% 5% 7% 5%;
+  background-color: #4a7d5c;
+  text-align: left;
+}
+
+#about-pg-mission h1{
+  padding: 0 0 2% 0;
+  text-align: center;
+}
+
+#director-detail{
+  height: 400px;
+  width: 100%;
+  background-color: #dddddd;
+}
+
+#about-pg-about-team{
+  background-color: #dddddd;
+  padding: 3%;
+  }
+  
+  #about-pg-about-team h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .about-pg-about-team-parent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+  }
+  
+  .about-pg-about-team-child-1{
+    width: 40%;
+  }
+  
+  .about-pg-about-team-child-1 img{
+    max-width: 90%;
+    border-radius: 8px;
+  }
+  
+  .about-pg-about-team-child-2{
+    width: 60%;
+  }
+  
+  .about-pg-about-team-child-2 p{
+    color: black;
+    line-height: 2;
+  }
+
+  /* GALLERY PAGE */
+.g-cards-parent{
+  background-color: #fff;
+  padding: 5% 0;
+  padding-top: 0;
+}
+
+.g-cards-child-h3, .g-cards-child-p{
+color: rgba(0, 0, 0, 0.8);
+width: 90%;
+padding: 6px 0;
+}
+
+.g-cards-child-p{
+  font-size: 12px;
+}
+
+.g-cards{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 5% 5% 0% 5%;
+  justify-content: center;
+}
+
+.g-cards-child{
+  width: 30%;
+}
+@media (max-width: 900px) {
+  
+}
+.g-cards-child img{
+  width: 90%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.g-cards-child a{
+color: #4a7d5c;
+text-decoration: none;
+}
+
+/* .cards-child h1{
+ font-weight: 500;
+} */
+
+/* FOR RESPONSIVENESS OF PAGE */
+
+@media (max-width: 1100px) {
+  .nav-branding img {
+    width: 400px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 990px) {
+  .nav-branding img {
+    width: 300px;
+    height: 90px;
+  }
+}
+
+/* MAX WIDTH 900PX */
+@media (max-width: 900px) {
+  .nav-branding img {
+    width: 500px;
+    height: 100px;
+  }
+  /* NAVBAR */
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) translateX(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(8px) translateX(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: 100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  #cards {
+    display: block;
+    margin: auto;
+  }
+  .card-child {
+    margin: auto;
+    width: 90%;
+    padding: 18px;
+    text-align: center;
+  }
+  .card-child img {
+    height: fit-content;
+    max-width: 100%;
+    text-align: center;
+  }
+  /* ABOUT PAGE ABOUT COMPANY IMAGE */
+  #about-pg-about-company-parent img{
+    max-width: 100%;
+    float: left;
+    margin: 20px;
+  }
+.about-pg-about-team-parent{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.about-pg-about-team-child-1{
+  width: 100%;
+  text-align: center;
+}
+
+.about-pg-about-team-child-2{
+width: 100%;
+}
+
+.about-pg-about-team-child-1 img{
+  max-width: 100%;
+}
+
+/* GALLERY PAGE */
+.g-cards{
+  display: block;
+  margin: auto;
+  justify-content: center;
+}
+.g-cards-child{
+  width: 100%;
+  padding-top: 3%;
+}
+}
+
+/* MAX WIDTH 750PX */
+@media (max-width: 750px) {
+  /* MAIN SECTION */
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3,
+  p {
+    font-size: 14px;
+  }
+}
+
+/* MAX WIDTH 650PX */
+@media (max-width: 650px) {
+  /* CARDS BOTTOM SECTION */
+  #cards-bottom {
+    display: block;
+    margin: auto;
+  }
+  .card-bottom-child {
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+  }
+  /* CONTACT PAGE */
+  .contact-parent {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-branding img {
+    width: 400px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 475px) {
+  .nav-branding img {
+    width: 300px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 380px) {
+  /* CARDS SECTION */
+  #cards-main h1 {
+    font-size: 30px;
+  }
+  .card-child p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .nav-branding img {
+    width: 200px;
+    height: 90px;
+  }
+}
+
+
+
+/* .test{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+.wrapper{
+  /* margin: 150px auto; 
+  width: 80%;
+}
+
+.test img{
+  max-width: 500px;
+  float: left;
+  margin: 20px;
+} */
