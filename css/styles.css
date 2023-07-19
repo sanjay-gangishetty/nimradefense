@@ -290,18 +290,6 @@ q {
   transition: 0.3s ease; /* For delaying the effect*/
 }
 
-/* CONTACT PAGE */
-/* #contactpg-main{
-  background-color: #dddddd;
-  height: 400px;
-  width: 100%;
-}
-
-#contactpg-main h1{
-  color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-} */
-
 /* CONTACT SECTION */
 
 #contact {
@@ -349,27 +337,13 @@ q {
   outline: none;
   padding-bottom: 5px;
   background-color: #dddddd;
-  /* color: #e9f8f9; */
   padding: 10px 0px;
 }
-
-/* .contact-parent textarea {
-  width: 100%;
-  border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
-  outline: none;
-  padding: 10px;
-  box-sizing: border-box;
-  background-color: #dddddd;
-  /* color: #e9f8f9; 
-  resize: none;
-} */
 
 .contact-parent label {
   display: block;
   margin-bottom: 6px;
   text-align: left;
-  /* color: #c0eef2; */
   padding: 10px 0px;
 }
 
@@ -539,9 +513,58 @@ color: #4a7d5c;
 text-decoration: none;
 }
 
-/* .cards-child h1{
- font-weight: 500;
-} */
+/* ACHIEVEMENTS PAGE */
+
+#achievements-pg-above-main{
+  min-height: 150px;
+  background-image: url("https://nimradefense.com/images/Hypersonic%20Wind%20Tunnel.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#achievements-pg-above-main h1{
+  text-align: center;
+  display: block;
+  margin: auto;
+  text-shadow: #4a7d5c;
+  padding: 40px;
+}
+
+.achivements-pg-container{
+background-color: #fff;
+padding: 3%;
+text-align: center;
+}
+
+.achivements-pg-container h1{
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 800;
+}
+
+.achivements-pg-container p{
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+}
+
+#achivements-pg-about-company-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 3%;
+  line-height: 1.6;
+}
+
+.achivements-pg-about-company-child{
+  width: 85%;
+}
+
+#achivements-pg-about-company-parent img{
+  max-width: 500px;
+  float: left;
+  margin: 20px;
+}
 
 /* FOR RESPONSIVENESS OF PAGE */
 
@@ -649,6 +672,14 @@ width: 100%;
   width: 100%;
   padding-top: 3%;
 }
+
+/* ACHIEVEMENTS PAGE */
+
+#achivements-pg-about-company-parent img{
+max-width: 100%;
+float: left;
+margin: 20px;
+}
 }
 
 /* MAX WIDTH 750PX */
@@ -711,24 +742,7 @@ width: 100%;
     width: 200px;
     height: 90px;
   }
+  #achievements-pg-above-main h1{
+    font-size: 28px;
+  }
 }
-
-
-
-/* .test{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 40vh;
-}
-
-.wrapper{
-  /* margin: 150px auto; 
-  width: 80%;
-}
-
-.test img{
-  max-width: 500px;
-  float: left;
-  margin: 20px;
-} */
