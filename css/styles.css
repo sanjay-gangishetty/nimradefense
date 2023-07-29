@@ -379,7 +379,7 @@ q {
 
 /* ABOUT PAGE */
 
-#about-pg-above-main{
+#about-pg-above-main {
   min-height: 150px;
   background-image: url("https://nimradefense.com/images/Hypersonic%20Wind%20Tunnel.png");
   background-position: center;
@@ -387,7 +387,7 @@ q {
   background-size: cover;
 }
 
-#about-pg-above-main h1{
+#about-pg-above-main h1 {
   text-align: center;
   display: block;
   margin: auto;
@@ -395,7 +395,7 @@ q {
   padding: 40px;
 }
 
-#about-pg-about-company-parent{
+#about-pg-about-company-parent {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -404,21 +404,22 @@ q {
   line-height: 1.6;
 }
 
-#about-pg-about-company-parent h1,#about-pg-about-company-parent p{
+#about-pg-about-company-parent h1,
+#about-pg-about-company-parent p {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.about-pg-about-company-child{
+.about-pg-about-company-child {
   width: 85%;
 }
 
-#about-pg-about-company-parent img{
+#about-pg-about-company-parent img {
   max-width: 500px;
   float: left;
   margin: 20px;
 }
 
-#about-pg-mission{
+#about-pg-mission {
   display: block;
   margin: auto;
   padding: 5% 5% 7% 5%;
@@ -426,69 +427,70 @@ q {
   text-align: left;
 }
 
-#about-pg-mission h1{
+#about-pg-mission h1 {
   padding: 0 0 2% 0;
   text-align: center;
 }
 
-#director-detail{
+#director-detail {
   height: 400px;
   width: 100%;
   background-color: #dddddd;
 }
 
-#about-pg-about-team{
+#about-pg-about-team {
   background-color: #dddddd;
   padding: 3%;
-  }
-  
-  #about-pg-about-team h1{
-    text-align: center;
-    color: rgba(0, 0, 0, 0.8);
-  }
-  
-  .about-pg-about-team-parent{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 3%;
-  }
-  
-  .about-pg-about-team-child-1{
-    width: 40%;
-  }
-  
-  .about-pg-about-team-child-1 img{
-    max-width: 90%;
-    border-radius: 8px;
-  }
-  
-  .about-pg-about-team-child-2{
-    width: 60%;
-  }
-  
-  .about-pg-about-team-child-2 p{
-    color: black;
-    line-height: 2;
-  }
+}
 
-  /* GALLERY PAGE */
-.g-cards-parent{
+#about-pg-about-team h1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.about-pg-about-team-parent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3%;
+}
+
+.about-pg-about-team-child-1 {
+  width: 40%;
+}
+
+.about-pg-about-team-child-1 img {
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+.about-pg-about-team-child-2 {
+  width: 60%;
+}
+
+.about-pg-about-team-child-2 p {
+  color: black;
+  line-height: 2;
+}
+
+/* GALLERY PAGE */
+.g-cards-parent {
   background-color: #fff;
   padding: 5% 0;
   padding-top: 0;
 }
 
-.g-cards-child-h3, .g-cards-child-p{
-color: rgba(0, 0, 0, 0.8);
-width: 90%;
-padding: 6px 0;
+.g-cards-child-h3,
+.g-cards-child-p {
+  color: rgba(0, 0, 0, 0.8);
+  width: 90%;
+  padding: 6px 0;
 }
 
-.g-cards-child-p{
+.g-cards-child-p {
   font-size: 12px;
 }
 
-.g-cards{
+.g-cards {
   display: flex;
   flex-wrap: wrap;
   text-align: left;
@@ -496,26 +498,25 @@ padding: 6px 0;
   justify-content: center;
 }
 
-.g-cards-child{
+.g-cards-child {
   width: 30%;
 }
 @media (max-width: 900px) {
-  
 }
-.g-cards-child img{
+.g-cards-child img {
   width: 90%;
   height: auto;
   border-radius: 6px;
 }
 
-.g-cards-child a{
-color: #4a7d5c;
-text-decoration: none;
+.g-cards-child a {
+  color: #4a7d5c;
+  text-decoration: none;
 }
 
 /* ACHIEVEMENTS PAGE */
 
-#achievements-pg-above-main{
+#achievements-pg-above-main {
   min-height: 150px;
   background-image: url("https://nimradefense.com/images/Hypersonic%20Wind%20Tunnel.png");
   background-position: center;
@@ -523,7 +524,7 @@ text-decoration: none;
   background-size: cover;
 }
 
-#achievements-pg-above-main h1{
+#achievements-pg-above-main h1 {
   text-align: center;
   display: block;
   margin: auto;
@@ -531,23 +532,23 @@ text-decoration: none;
   padding: 40px;
 }
 
-.achivements-pg-container{
-background-color: #fff;
-padding: 3%;
-text-align: center;
+.achivements-pg-container {
+  background-color: #fff;
+  padding: 3%;
+  text-align: center;
 }
 
-.achivements-pg-container h1{
+.achivements-pg-container h1 {
   color: rgba(0, 0, 0, 0.8);
   font-weight: 800;
 }
 
-.achivements-pg-container p{
+.achivements-pg-container p {
   color: rgba(0, 0, 0, 0.8);
   text-align: left;
 }
 
-#achivements-pg-about-company-parent{
+#achivements-pg-about-company-parent {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -556,11 +557,11 @@ text-align: center;
   line-height: 1.6;
 }
 
-.achivements-pg-about-company-child{
+.achivements-pg-about-company-child {
   width: 85%;
 }
 
-#achivements-pg-about-company-parent img{
+#achivements-pg-about-company-parent img {
   max-width: 500px;
   float: left;
   margin: 20px;
@@ -638,48 +639,48 @@ text-align: center;
     text-align: center;
   }
   /* ABOUT PAGE ABOUT COMPANY IMAGE */
-  #about-pg-about-company-parent img{
+  #about-pg-about-company-parent img {
     max-width: 100%;
     float: left;
     margin: 20px;
   }
-.about-pg-about-team-parent{
-  display: block;
-  margin: auto;
-  width: 100%;
-}
+  .about-pg-about-team-parent {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
 
-.about-pg-about-team-child-1{
-  width: 100%;
-  text-align: center;
-}
+  .about-pg-about-team-child-1 {
+    width: 100%;
+    text-align: center;
+  }
 
-.about-pg-about-team-child-2{
-width: 100%;
-}
+  .about-pg-about-team-child-2 {
+    width: 100%;
+  }
 
-.about-pg-about-team-child-1 img{
-  max-width: 100%;
-}
+  .about-pg-about-team-child-1 img {
+    max-width: 100%;
+  }
 
-/* GALLERY PAGE */
-.g-cards{
-  display: block;
-  margin: auto;
-  justify-content: center;
-}
-.g-cards-child{
-  width: 100%;
-  padding-top: 3%;
-}
+  /* GALLERY PAGE */
+  .g-cards {
+    display: block;
+    margin: auto;
+    justify-content: center;
+  }
+  .g-cards-child {
+    width: 100%;
+    padding-top: 3%;
+  }
 
-/* ACHIEVEMENTS PAGE */
+  /* ACHIEVEMENTS PAGE */
 
-#achivements-pg-about-company-parent img{
-max-width: 100%;
-float: left;
-margin: 20px;
-}
+  #achivements-pg-about-company-parent img {
+    max-width: 100%;
+    float: left;
+    margin: 20px;
+  }
 }
 
 /* MAX WIDTH 750PX */
@@ -742,7 +743,7 @@ margin: 20px;
     width: 200px;
     height: 90px;
   }
-  #achievements-pg-above-main h1{
+  #achievements-pg-above-main h1 {
     font-size: 28px;
   }
 }
